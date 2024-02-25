@@ -1,9 +1,14 @@
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(221, 221, 221);
 }
 
 body {
   background-color: rgb(32, 32, 32);
+  background-image: url(/images/layered-waves-haikei.svg);
+  image-rendering: auto;
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 .btn-div-flex {
@@ -38,11 +43,11 @@ body {
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
-  transition: all 0.2s;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
+  transition: all 0.15s;
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
 }
 
 .btn:hover {
@@ -79,4 +84,29 @@ body {
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
+}
+
+.div-thanks-flex {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  bottom: 0;
+  right: 0;
+  background-color: rgb(32, 32, 32);
+  border-top-left-radius: 12px;
+  padding-top: 3px;
+  padding-left: 3px;
+}
+
+.bottom-right a {
+  bottom: 0;
+  right: 0;
+  text-decoration: none;
+  color: rgb(221, 221, 221);
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  text-align: center;
 }
